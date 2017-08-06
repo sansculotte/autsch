@@ -1,0 +1,17 @@
+[
+    {
+        "name": "nachtfilm",
+        "url": "http://localhost:8000/files/nachtfilm.mp3",
+        "artist": "bombhead"
+    },
+    {
+        "name": "control",
+        "url": "http://localhost:8000/files/control.mp3",
+        "artist": "bombhead"
+    },
+    {
+        "name": "dumbstep",
+        "url": "http://localhost:8000/files/dumbstep.mp3",
+        "artist": "bombhead"
+    }
+]

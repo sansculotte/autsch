@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Playlist Player</title>
+    <style>
+        body {
+          font-family: Helvetica, sans-serif;
+        }
+        li {
+          list-style: none;
+        }
+        a {
+          text-decoration: none;
+        }
+        .playing { background-color: blue }
+        .playing a { color: white }
+    </style>
+    <script src="/build/autsch.js"></script>
+  </head>
+  <body>
+    <h1>Playing out Loud</h1>
+    <audio data-src="/files/playlist.json" controls="show"></audio>
+  </body>
+  <script>
+    var ps = document.getElementsByTagName('audio');
+    for (var i=0; i<ps.length; i++) {
+      Player.init(ps[i]);
+    }
+  </script>
+</html>
