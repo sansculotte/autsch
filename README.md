@@ -8,7 +8,8 @@ to see it working, cd into exmaples and run:
 
     python3 -m http.server
 
-or
+or with python 2.7
+    
     python -m SimpleHttpServer
 
 point your html5 aware browser to localhost:8000/
